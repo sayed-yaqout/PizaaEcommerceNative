@@ -1,0 +1,261 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navBar {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 20%;
+  background-color: #c10a28;
+  justify-content: space-between;
+  align-items: center;
+}
+.clr {
+  clear: both;
+}
+ul {
+  list-style-type: none;
+
+  overflow: hidden;
+  opacity: 0.1px;
+}
+
+li {
+  float: left;
+  margin: 0px auto;
+  font-size: large;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  opacity: 0.1px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.shape {
+  background-image: url("../images/brd.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 12px;
+  position: absolute;
+}
+/*  */
+.bkimage {
+  background-image: url("../images/slider-bg1.jpg");
+  width: 100%;
+  height: 90%;
+  background-size: 100% 100%;
+}
+
+/*  */
+
+.btn1 {
+  color: white;
+  background-color: #cf2a54;
+  padding: 15px 28px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 20px;
+}
+.btn2 {
+  color: white;
+  background: none;
+  padding: 15px 28px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 2px solid white;
+  margin: 20px;
+}
+.btn1:hover {
+  color: #cf2a54;
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid #cf2a54;
+}
+
+.btn2:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.pizzashop {
+  text-align: center;
+  padding-top: 50px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+  /* height: 110%; */
+  margin: 0px auto;
+}
+.pizzashop h1 {
+  color: #c10a28;
+  margin-top: -15px;
+  font-size: 45px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px;
+}
+.pizzashop .forPizzas {
+  width: 18%;
+  height: 40%;
+  float: left;
+  background-color: honeydew;
+  margin: 40px;
+  text-align: center;
+  margin-top: 7em;
+  border-radius: 6em;
+}
+
+.myimage {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+
+.fortext {
+  margin-top: 60px;
+}
+
+.pizzashop img {
+  width: 100%;
+  height: 100%;
+}
+
+.pizzashop #cart {
+  display: block;
+}
+.pizzashop .myimage:hover #cart {
+  display: block;
+  z-index: 6;
+}
+#myBtn{
+  background-color: #c10a28;
+ position: absolute;
+ margin-left: 25%;
+ margin-top: 30%;
+ color: white;
+ width: 200px;
+ font-size: 1.5em;
+ height: 50px;
+ border: none;
+ border-radius: 30px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+cursor: pointer;
+}
+#myBtn:hover{
+  background-color: rgb(255, 255, 255,.111);
+  border:2px solid #c10a28;
+  transition: 1s ease;
+}
+/*  */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ 
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  border-radius: 15px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  
+ 
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*  */
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:20px;
+	color:#c10a28;	
+  
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:17px;
+
+  color:#c10a28;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #c10a28;	
+}
+.btn11{
+	color:white;
+	background-color:#c10a28;
+	outline: none;
+    border: 0;
+   width: 40%; 
+   height: 10%;
+  border-radius: 20px;
+   font-size: large;
+	padding:10px 20px;
+	text-transform:uppercase;
+margin-left: 30%;
+	cursor:pointer;
+	position:relative;
+}
+.btn11:hover{
+  border: 2px solid #c10a28;
+  background-color: rgb(255, 255, 255,.111);
+  color: #c10a28;
+  transition: 1s ease;
+}
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
