@@ -1,0 +1,118 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navBar {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 20%;
+  background-color: #c10a28;
+  justify-content: space-between;
+  align-items: center;
+}
+.clr {
+  clear: both;
+}
+ul {
+  list-style-type: none;
+
+  overflow: hidden;
+  opacity: 0.1px;
+}
+
+li {
+  float: left;
+  margin: 0px auto;
+  font-size: large;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  opacity: 0.1px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.shape {
+  background-image: url("../images/brd.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 12px;
+  position: absolute;
+}
+/*  */
+.bkimage {
+  background-image: url("../images/slider-bg1.jpg");
+  width: 100%;
+  height: 90%;
+  background-size: 100% 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    margin-left: 10%;
+    float:left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    height: 80%;
+    text-align: center;
+    background-image: url("../images/slider-bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }

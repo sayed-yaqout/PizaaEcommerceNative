@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/checkout.css">
+ <title>Pizza</title>
+</head>
+<body>
+  <div class="navBar">
+   <img src="images/img1.png" alt="" style="width: 8em;height: 7em;">
+    <ul>
+      <li><a class="active" href="home.html">Home</a></li>
+      <li><a class="active"  href="cart.html">Cart</a></li>
+      <li><a class="active" href="contactus.html">Contact</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+    <h3 style="color: white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">  PIZZA</h3>
+  </div>
+  <div class="shape"></div>
+    <div class='container'>
+        <div class='window'>
+          <div class='order-info'>
+            <div class='order-info-content'>
+              <h2>Order Summary</h2>
+                      <div class='line'></div>
+              <table class='order-table'>
+                <tbody>
+                  <tr>
+                    <td><img src='images/p10.jpg' class='full-width'></img>
+                    </td>
+                    <td>
+                      <br> <span class='thin'>cheesy</span>
+                      <br> cheese and tomato<br> <span class='thin small'> Color: white/Orange, Size: large<br><br></span>
+                    </td>
+      
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class='price'>$99.95</div>
+                    </td>
+                  </tr>
+                </tbody>
+      
+              </table>
+              <div class='line'></div>
+              <table class='order-table'>
+                <tbody>
+                  <tr>
+                    <td><img src='images/phawaii.jpg' class='full-width'></img>
+                    </td>
+                    <td>
+                      <br> <span class='thin'>Hawaii</span>
+                      <br>cheese and meat<br> <span class='thin small'> Color: Olive, Size: small</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class='price'>$235.95</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class='line'></div>
+              <table class='order-table'>
+                <tbody>
+                  <tr>
+                    <td><img src='images/pb4.jpg' class='full-width'></img>
+                    </td>
+                    <td>
+                      <br> <span class='thin'>supreme</span>
+                      <br>Double meat<br> <span class='thin small'> Color: tomate, Size: Medium</span>
+                    </td>
+      
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class='price'>$25.95</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class='line'></div>
+              <div class='total'>
+                <span style='float:left;'>
+                  <div class='thin dense'>VAT 19%</div>
+                  <div class='thin dense'>Delivery</div>
+                  TOTAL
+                </span>
+                <span style='float:right; text-align:right;'>
+                  <div class='thin dense'>$68.75</div>
+                  <div class='thin dense'>$4.95</div>
+                  $435.55
+                </span>
+              </div>
+      </div>
+      </div>
+              <div class='credit-info'>
+                <div class='credit-info-content'>
+                  <table class='half-input-table'>
+                    <tr><td style="color: white;">Please select your card: </td><td><div class='dropdown' id='card-dropdown'><div class='dropdown-btn' id='current-card' style="color: white;">Visa</div>
+                      <div class='dropdown-select'>
+                      <ul>
+                        <li style="color: white;">Master Card</li>
+                        <li style="color: white;">American Express</li>
+                        </ul></div>
+                      </div>
+                     </td></tr>
+                  </table>
+                  <img src='images/visa_logo (1).png' height='80' class='credit-card-image' id='credit-card-image'></img>
+                  Card Number
+                  <input class='input-field'></input>
+                  Card Holder
+                  <input class='input-field'></input>
+                  <table class='half-input-table'>
+                    <tr>
+                      <td style="color: white;"> Expires
+                        <input class='input-field'></input>
+                      </td>
+                      <td style="color: white;">CVC
+                        <input class='input-field'></input>
+                      </td>
+                    </tr>
+                  </table>
+                  <button class='pay-btn' onclick="onCheckOut()">Checkout</button>
+      
+                </div>
+      
+              </div>
+            </div>
+      </div>
+      <script src="js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza</title>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="navBar">
+      <img src="images/img1.png" alt="" style="width: 9em; height: 7em" />
+      <ul>
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a class="active" href="cart.html">Cart</a></li>
+        <li><a class="active" href="contactus.html">Contact</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+      </ul>
+      <h3
+        style="
+          color: white;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+            'Lucida Sans', Arial, sans-serif;
+          font-size: 2em;
+        "
+      >
+        PIZZA
+      </h3>
+    </div>
+    <div class="shape"></div>
+    <div class="bkimage">
+      <!-- Trigger/Open The Modal -->
+<button id="myBtn">Add Product</button>
+      <img src="images/pizza.png" style="margin-left: 15%;margin-bottom: 15%;" alt="" /><img
+        src="images/pz.png"
+        style="width: 40%"
+        alt=""
+      />
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1 style="color:#c10a28;text-align: center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Add Product Form</h1>
+    <img style="display: block;margin: 0% auto;" src="images/img12.png" alt="" srcset="">
+    
+    <form action="home.html" method="POST">
+      
+    <div class="input-container">
+      <input type="text" required/>
+      <label>Title</label>		
+    </div>
+    <div class="input-container">		
+      <input type="text" required/>
+      <label>description</label>
+    </div>
+    <div class="input-container">		
+      <input type="number" required/>
+      <label>Price</label>
+    </div>
+    <div class="input-container">		
+      <button type="submit" class="btn11">ADD</button>
+    </div>
+
+     
+  </form>	
+  
+  </div>
+
+</div>
+
+    </div>
+    <section class="pizzashop backg-img">
+      <h1>CHOOSE YOUR FAVOURITE PIZZA</h1>
+      <div class="forPizzas">
+        <div class="myimage">
+          <img src="images/img1.png" alt="1" />
+          <div class="myoverlie"></div>
+        </div>
+        <div class="clr"></div>
+        <div class="fortext">
+          <h3>margreta</h3>
+          <hr />
+          <h3>100$</h3>
+
+          <div id="cart">
+            <button class="btn1" onclick="mybtnclick()">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="forPizzas">
+        <div class="myimage">
+          <img src="images/img12.png" alt="1" />
+          <div class="myoverlie"></div>
+        </div>
+        <div class="clr"></div>
+        <div class="fortext">
+          <h3>buffalo</h3>
+          <hr />
+          <h3>80$</h3>
+          <div id="cart">
+            <button class="btn1" onclick="mybtnclick()">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="forPizzas">
+        <div class="myimage">
+          <img src="images/img15.png" alt="1" />
+          <div class="myoverlie"></div>
+        </div>
+        <div class="clr"></div>
+        <div class="fortext">
+          <h3>italiano</h3>
+          <hr />
+          <h3>100$</h3>
+          <div id="cart">
+            <button class="btn1" onclick="mybtnclick()">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="forPizzas">
+        <div class="myimage">
+          <img src="images/img17.png" alt="1" />
+          <div class="myoverlie"></div>
+        </div>
+        <div class="clr"></div>
+        <div class="fortext">
+          <h3>chicken BBQ</h3>
+          <hr />
+          <h3>100$</h3>
+          <div id="cart">
+            <button class="btn1" onclick="mybtnclick()">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="forPizzas">
+        <div class="myimage">
+          <img src="images/p-img7.png" alt="1" />
+          <div class="myoverlie"></div>
+        </div>
+        <div class="clr"></div>
+        <div class="fortext">
+          <h3>onion</h3>
+          <hr />
+          <h3>100$</h3>
+          <div id="cart">
+            <button class="btn1" onclick="mybtnclick()">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="forPizzas">
+        <div class="myimage">
+          <img src="images/p-img7.png" alt="1" />
+          <!-- <div class="myoverlie"></div> -->
+        </div>
+        <div class="clr"></div>
+        <div class="fortext">
+          <h3>Cheese</h3>
+          <hr />
+          <h3>100$</h3>
+          <div id="cart">
+            <button class="btn1" onclick="mybtnclick()">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="forPizzas">
+        <div class="myimage">
+          <img src="images/p-img8.png" alt="1" />
+          <div class="myoverlie"></div>
+        </div>
+        <div class="clr"></div>
+        <div class="fortext">
+          <h3>Beef</h3>
+          <hr />
+          <h3>100$</h3>
+          <div id="cart">
+            <button class="btn1" onclick="mybtnclick()">add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="forPizzas">
+        <div class="myimage">
+          <img src="images/p-img8.png" alt="1" />
+          <div class="myoverlie"></div>
+        </div>
+        <div class="clr"></div>
+        <div class="fortext">
+          <h3>Checken</h3>
+          <hr />
+          <h3>100$</h3>
+          <div id="cart">
+            <button class="btn1" onclick="mybtnclick()">add to cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    
+    <!--  -->
+    <script src="js/home.js"></script>
+  </body>
+</html>
